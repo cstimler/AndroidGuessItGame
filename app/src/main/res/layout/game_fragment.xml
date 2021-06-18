@@ -70,10 +70,12 @@
             android:textColor="@color/grey_text_color"
             android:textSize="14sp"
             android:textStyle="normal"
+            android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/score_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="0:00" />
+            tools:text="0:00"
+            tools:visibility="visible" />
 
         <TextView
             android:id="@+id/score_text"

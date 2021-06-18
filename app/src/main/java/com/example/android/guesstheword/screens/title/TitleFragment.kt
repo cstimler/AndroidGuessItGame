@@ -17,6 +17,7 @@
 package com.example.android.guesstheword.screens.title
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,6 +35,7 @@ class TitleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
         // Inflate the layout for this fragment
+        Log.i("TitleFragment", "onCreateView happened")
         val binding: TitleFragmentBinding = DataBindingUtil.inflate(
                 inflater, R.layout.title_fragment, container, false)
 
